@@ -25,6 +25,12 @@ header .navbar-brand i {
     font-size: 2.5rem;
     color: #35a22c;
 }
+.navbar-nav{
+    background-color: #fff;
+}
+.navbar-nav .nav-item{
+    color: #35a22c;
+}
 .navbar-toggler-icon{
     display: inline-block;
     width: 50px;
@@ -157,6 +163,9 @@ header .navbar-brand i {
     position: relative;
     padding: 100px 0 120px;
 }
+.feature h2{
+    font-weight: 600;
+}
 .feature .overlay{
     background-color: rgba(7, 10, 12, 0.72);
 }
@@ -217,6 +226,9 @@ header .navbar-brand i {
     border-radius: 10px;
     backdrop-filter: blur(3px);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+}
+.award__left h2{
+    font-weight: 700;
 }
 .award__right{
     padding: 45px 0;
